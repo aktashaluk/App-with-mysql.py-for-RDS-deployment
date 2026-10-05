@@ -1,3 +1,8 @@
+# This program is a Flask web application that uses SQLAlchemy to interact with a MySQL database hosted on AWS RDS. 
+# It allows users to search for email addresses by username, add new users, and delete existing users. 
+# The application is structured with routes for searching, adding, and deleting users, and 
+# from flask import Flask, render_template, request
+
 from flask import Flask, render_template, request
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import text
