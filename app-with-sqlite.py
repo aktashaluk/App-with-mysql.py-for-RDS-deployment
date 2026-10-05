@@ -1,3 +1,10 @@
+# This program is a Flask web application that uses SQLAlchemy to interact with a SQLite database. 
+# It allows users to search for email addresses by username, add new users, and delete existing users. 
+# The application is structured with routes for searching, adding, and deleting users, and it uses HTML 
+# templates to render the results. It also includes functionality to create and populate the database with initial data 
+# when the application starts. The database is created in the same directory as the application, 
+# and the application can be accessed from any host on port 8080.
+
 from flask import Flask, render_template, request
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import text
